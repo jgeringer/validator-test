@@ -1042,7 +1042,7 @@ eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var validator__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! validator */ \"./node_modules/validator/index.js\");\n/* harmony import */ var validator__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(validator__WEBPACK_IMPORTED_MODULE_0__);\n// import leftPad from './leftpad';\n\n// const serNos = [6934, 23111, 23114, 1001, 211161];\n// const strSNos = serNos.map(sn => leftPad(sn, 8, '0'));\n// console.log(strSNos);\n\n\n\n// const validator = require('validator')\n\nconsole.log(validator__WEBPACK_IMPORTED_MODULE_0___default.a.isEmail('mail@test.org'));\n\n\n//# sourceURL=webpack:///./src/js/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var validator__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! validator */ \"./node_modules/validator/index.js\");\n/* harmony import */ var validator__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(validator__WEBPACK_IMPORTED_MODULE_0__);\n// import leftPad from './leftpad';\n\n// const serNos = [6934, 23111, 23114, 1001, 211161];\n// const strSNos = serNos.map(sn => leftPad(sn, 8, '0'));\n// console.log(strSNos);\n\n\n\n// const validator = require('validator')\n\nconsole.log(`isEmail - mail@test.org : ${validator__WEBPACK_IMPORTED_MODULE_0___default.a.isEmail('mail@test.org')}`);\nconsole.log(`isCurrency - $1.99 : ${validator__WEBPACK_IMPORTED_MODULE_0___default.a.isCurrency('$1.99')}`);\n\n\n//# sourceURL=webpack:///./src/js/index.js?");
 
 /***/ })
 

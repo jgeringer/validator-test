@@ -8,4 +8,5 @@
 import validator from 'validator';
 // const validator = require('validator')
 
-console.log(validator.isEmail('mail@test.org'));
+console.log(`isEmail - mail@test.org : ${validator.isEmail('mail@test.org')}`);
+console.log(`isCurrency - $1.99 : ${validator.isCurrency('$1.99')}`);
